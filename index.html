@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Mesto</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="page">
+      <!--HEADER--> <!-- -->
+      <header class="header">
+        <img 
+        class="header__logo"
+        src="images/header-logo.svg"
+        alt="Логотип площадки Mesto"
+        >
+        <hr class="header__line">
+      </header>
+      <main>
+        <!--PROFILE (ОБЕРТКА)-->
+        <section class="profile">
+          <div class="user">
+            <img 
+              class="user__icon"
+              src="images/user-icon.jpg"
+              alt="Изображение профиля"
+            >
+            <img 
+              class="user__edit-button"
+              src="images/user-edit-button.svg"
+              alt="Кнопка редактирование профиля"
+            >
+            <!--POPUP START-->
+            <div class="popup-wrapper"> <!--ОБЕРТКА-->
+              <div class="popup">
+              <img 
+              class="popup__close-button"
+              src="images/popup-close-button.svg"
+              alt="Закрыть форму редактирования профиля"
+              >
+              <div class="popup__content">
+              <h2 class="popup__title">Редактировать профиль</h2>
+
+              <input type="text" name="user-name" value="Жак-Ив Кусто" class="popup__form-container popup__form-name">
+              <input type="text" name="user-info"value="Исследователь океана" class="popup__form-container popup__form-info">
+              <input type="submit" onClick="validForm()" value="Сохранить" class="popup__save-button">
+
+              </div>
+              </div>
+            </div>
+            <!--POPUP END-->
+            <h1 class="user__name">Жак-Ив Кусто</h1>
+            <p class="user__info">Исследователь океана</p>
+          </div>
+          <img 
+              class="add-button"
+              src="images/add-button.svg"
+              alt="Кнопка добавить новое место"
+            >
+        </section>
+        <!--CARDS (ОБЕРТКА) 6 БЛОКОВ-->
+        <section class="cards">
+          <!--1-->
+          <div class="card">
+            <img 
+              class="card__image"
+              src="images/card-baikal.jpg"
+              alt="Байкал, покрытая льдом пещера"
+            >
+            <h2 class="card__title">Байкал</h2>
+            <img 
+              class="card__like-button"
+              src="images/card-like-button.svg"
+              alt="Кнопка нравится"
+              >
+          </div>
+          <!--2-->
+          <div class="card">
+            <img 
+              class="card__image"
+              src="images/card-kamchatka.jpg"
+              alt="Камчатка, море"
+            >
+            <h2 class="card__title">Камчатка</h2>
+            <img 
+              class="card__like-button"
+              src="images/card-like-button.svg"
+              alt="Кнопка нравится"
+              >
+          </div>
+          <!--3-->
+          <div class="card">
+            <img 
+              class="card__image"
+              src="images/card-olhon.jpg"
+              alt="Ольхон, теплое время года"
+            >
+            <h2 class="card__title">Ольхон</h2>
+            <img 
+              class="card__like-button"
+              src="images/card-like-button.svg"
+              alt="Кнопка нравится"
+              >
+          </div>
+          <!--4-->
+          <div class="card">
+            <img 
+              class="card__image"
+              src="images/card-komi.jpg"
+              alt="Коми"
+            >
+            <h2 class="card__title">Коми</h2>
+            <img 
+              class="card__like-button"
+              src="images/card-like-button.svg"
+              alt="Кнопка нравится"
+              >
+          </div>
+          <!--5-->
+          <div class="card">
+            <img 
+              class="card__image"
+              src="images/card-kamchatka2.jpg"
+              alt="Камчатка, туман"
+            >
+            <h2 class="card__title">Камчатка</h2>
+            <img 
+              class="card__like-button"
+              src="images/card-like-button.svg"
+              alt="Кнопка нравится"
+              >
+          </div>
+          <!--6-->
+          <div class="card">
+            <img 
+              class="card__image"
+              src="images/card-olhon2.jpg"
+              alt="Ольхон во льдах"
+            >
+            <h2 class="card__title">Ольхон</h2>
+            <img 
+              class="card__like-button"
+              src="images/card-like-button.svg"
+              alt="Кнопка нравится"
+              >
+          </div>
+        </section>
+      </main>
+      <!--FOOTER-->
+      <footer class="footer">
+        <span>© 2022 Mesto Russia</span>
+      </footer>
+      </div>
+    </div>
+  </body>
+</html>

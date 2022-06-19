@@ -1,0 +1,44 @@
+/* VENDOR */
+@import url(../vendor/normalize.css);
+/* FONTS */
+@import url(../fonts/inter/inter.css);
+/* PAGE */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page-wrapper/page-wrapper.css);
+/* Дальше секции и блоки в том порядке, в котором они расположены на странице */
+/* HEADER */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__line/header__line.css);
+/* Обертка PROFILE */
+@import url(../blocks/profile/profile.css);
+/* USER */
+@import url(../blocks/user/user.css);
+@import url(../blocks/user/__icon/user__icon.css);
+@import url(../blocks/user/__name/user__name.css);
+@import url(../blocks/user/__info/user__info.css);
+@import url(../blocks/user/__edit-button/user__edit-button.css);
+/* Обертка POPUP-WRAPPER */
+@import url(../blocks/popup-wrapper/popup-wrapper.css);
+@import url(../blocks/popup-wrapper/_opened/popup-wrapper_opened.css);
+/* Блок POPUP */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__close-button/popup__close-button.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__form-container/popup__form-container.css);
+@import url(../blocks/popup/__form-name/popup__form-name.css);
+@import url(../blocks/popup/__form-info/popup__form-info.css);
+@import url(../blocks/popup/__save-button/popup__save-button.css);
+/* ADD-BUTTON */
+@import url(../blocks/add-button/add-button.css);
+/* Обертка CARDS */
+@import url(../blocks/cards/cards.css);
+/* Блок CARD */
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__like-button/card__like-button.css);
+@import url(../blocks/card/__like-button/_active/card__like-button_active.css);
+/* FOOTER */
+@import url(../blocks/footer/footer.css);

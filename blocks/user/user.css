@@ -1,0 +1,10 @@
+.user {
+  width: 486px;
+  height: 120px;
+  display: grid;
+  grid-template-areas:
+  "icon name edit"
+  "icon info .";
+  grid-template-columns: 120px 324px 42px;
+  grid-template-rows: 51% 49%;
+}

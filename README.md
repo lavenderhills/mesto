@@ -1,7 +1,6 @@
 # Проект: Место
 
-*Проектная работа в рамках курса Веб-разработчик на Яндекс.Практикуме*
-[Ссылка на курс](https://practicum.yandex.ru/web/)
+*Проектная работа в рамках курса [Веб-разработчик](https://practicum.yandex.ru/web/) на Яндекс.Практикуме*
 
 ### Обзор
 
@@ -26,6 +25,6 @@
 
 **GitHub Pages**
 
-* [Ссылка на GitHub Pages](----)
+* [Ссылка на GitHub Pages](https://lavenderhills.github.io/mesto/)
 
 

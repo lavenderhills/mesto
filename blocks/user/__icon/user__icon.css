@@ -1,5 +1,10 @@
 .user__icon {
+  grid-area: icon;
   border-radius: 50%;
   width: 120px;
+}
 
+@media screen and (max-width: 780px) {
+  .user__icon {
+  }
 }

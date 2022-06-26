@@ -5,3 +5,11 @@
   font-size: 18px;
   line-height: 1.2;
 }
+
+@media screen and (max-width: 780px) {
+  .user__info {
+    margin: 14px auto 0;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}

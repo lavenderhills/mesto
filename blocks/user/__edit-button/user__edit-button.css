@@ -1,5 +1,8 @@
 .user__edit-button {
+  background-image: url(../../../images/user-edit-button.svg);
+  background-size: contain;
   grid-area: edit;
+  width: 24px;
   justify-self: end;
   margin-top: 37px;
   transition: opacity 0.5s linear;
@@ -8,4 +11,13 @@
 .user__edit-button:hover {
   opacity: 0.6;
   cursor: pointer;
+}
+
+@media screen and (max-width: 780px) {
+  .user__edit-button {
+    margin-top: 0;
+    width: 18px;
+    height: 18px;
+    align-self: end;
+  }
 }

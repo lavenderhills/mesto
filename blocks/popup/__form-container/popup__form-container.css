@@ -14,3 +14,9 @@
 .popup__form-container:focus {
   outline-color: DodgerBlue;
 }
+
+@media screen and (max-width: 645px) {
+  .popup__form-container {
+    width: 238px;
+  }
+}

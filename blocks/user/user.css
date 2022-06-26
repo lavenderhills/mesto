@@ -8,3 +8,18 @@
   grid-template-columns: 120px 324px 42px;
   grid-template-rows: 51% 49%;
 }
+
+@media screen and (max-width: 780px) {
+  .user {
+    width: 217px;
+    height: 200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+    ". . icon . ."
+    "name name name name edit"
+    "info info info info info";
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: 146px 26px 28px;
+  }
+}

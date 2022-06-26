@@ -2,5 +2,18 @@
   max-width: 880px;
   margin: 40px auto 0;
   display: flex;
-  justify-content: space-between;]
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 960px) {
+  .profile {
+    width: 88.125%
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .profile {
+    flex-direction: column;
+    justify-content: center;
+  }
 }

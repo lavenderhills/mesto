@@ -27,14 +27,16 @@
               src="images/user-icon.jpg"
               alt="Изображение профиля"
             >
+            <a class="user__edit-button">
             <img 
-              class="user__edit-button"
+              
               src="images/user-edit-button.svg"
               alt="Кнопка редактирование профиля"
             >
+            </a>
             <!--POPUP START-->
-            <div class="popup-wrapper"> <!--ОБЕРТКА-->
-              <div class="popup">
+            <div class="popup-wrapper popup-wrapper_closed"> <!--ОБЕРТКА-->
+              <form class="popup">
               <img 
               class="popup__close-button"
               src="images/popup-close-button.svg"
@@ -43,11 +45,11 @@
               <div class="popup__content">
               <h2 class="popup__title">Редактировать профиль</h2>
 
-              <input type="text" name="user-name" value="Жак-Ив Кусто" class="popup__form-container popup__form-name">
-              <input type="text" name="user-info"value="Исследователь океана" class="popup__form-container popup__form-info">
-              <input type="submit" onClick="validForm()" value="Сохранить" class="popup__save-button">
+              <input type="text" value="Жак-Ив Кусто" class="popup__form-container popup__form-name" id="form-name">
+              <input type="text" value="Исследователь океана " class="popup__form-container popup__form-info" id="form-info">
+              <button type="submit" class="popup__save-button">Сохранить</button>
 
-              </div>
+              </form>
               </div>
             </div>
             <!--POPUP END-->
@@ -154,5 +156,6 @@
       </footer>
       </div>
     </div>
+  <script src="pages/index.js"></script>
   </body>
 </html>

@@ -20,7 +20,7 @@
 @import url(../blocks/user/__edit-button/user__edit-button.css);
 /* Обертка POPUP-WRAPPER */
 @import url(../blocks/popup-wrapper/popup-wrapper.css);
-@import url(../blocks/popup-wrapper/_opened/popup-wrapper_opened.css);
+@import url(../blocks/popup-wrapper/_closed/popup-wrapper_closed.css);
 /* Блок POPUP */
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__close-button/popup__close-button.css);

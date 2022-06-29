@@ -3,7 +3,6 @@
   background-color: white;
   border-radius: 10px;
   color: black;
-  height: 361px;
   display: grid;
    grid-template-areas:
     "img img"

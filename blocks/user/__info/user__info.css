@@ -1,15 +1,19 @@
 .user__info {
   grid-area: info;
-  margin: 16px 0 0 30px;
+  margin: 10px 0 0 30px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 780px) {
   .user__info {
-    margin: 14px auto 0;
+    margin: 10px 0 0 15px;
     font-size: 14px;
     line-height: 1.2;
+    max-width: 170px;
   }
 }

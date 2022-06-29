@@ -11,15 +11,19 @@ closeBtn.addEventListener('click', function() {
 });
 
 let formElement = document.querySelector('.popup');
-let nameInput = document.querySelector('.popup__form-name');
-let jobInput = document.querySelector('.popup__form-info');
+let nameInput = document.querySelector('.popup__form_name');
+let jobInput = document.querySelector('.popup__form_info');
 let nameField = document.querySelector('.user__name');
 let jobField = document.querySelector('.user__info');
+
+nameInput.value = nameField.textContent;
+jobInput.value = jobField.textContent;
 
 function formSubmitHandler (evt) {
 evt.preventDefault();
 nameField.textContent = nameInput.value;
 jobField.textContent = jobInput.value;
+popup.classList.add('popup-wrapper_closed');
 };
 
 formElement.addEventListener('submit', formSubmitHandler);

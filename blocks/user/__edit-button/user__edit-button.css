@@ -1,10 +1,12 @@
 .user__edit-button {
   background-image: url(../../../images/user-edit-button.svg);
-  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 0;
   grid-area: edit;
   width: 24px;
   justify-self: end;
-  margin-top: 37px;
+  margin-top: 28px;
   transition: opacity 0.5s linear;
 }
 
@@ -16,8 +18,10 @@
 @media screen and (max-width: 780px) {
   .user__edit-button {
     margin-top: 0;
+    background-size: contain;
     width: 18px;
     height: 18px;
     align-self: end;
+    margin-bottom: 5px;
   }
 }

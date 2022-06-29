@@ -1,9 +1,9 @@
-.popup__form-name {
-  margin-top: 54px;
+.popup__form_name {
+  margin-top: 52px;
 }
 
 @media screen and (max-width: 645px) {
-  .popup__form-name {
+  .popup__form_name {
     margin-top: 75px; 
   }
 }

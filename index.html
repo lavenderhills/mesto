@@ -7,19 +7,17 @@
     <title>Mesto</title>
   </head>
   <body>
-    <div class="page-wrapper">
-      <div class="page">
-      <!--HEADER--> <!-- -->
+    <div class="page">
+      <!--HEADER-->
       <header class="header">
         <img 
         class="header__logo"
         src="images/header-logo.svg"
         alt="Логотип площадки Mesto"
         >
-        <hr class="header__line">
       </header>
       <main>
-        <!--PROFILE (ОБЕРТКА)-->
+        <!--PROFILE-->
         <section class="profile">
           <div class="user">
             <img 
@@ -27,29 +25,22 @@
               src="images/user-icon.jpg"
               alt="Изображение профиля"
             >
-            <div class="user__edit-button"></div>
+            <button type="button" class="user__edit-button"></button>
             <!--POPUP START-->
             <div class="popup-wrapper popup-wrapper_closed"> <!--ОБЕРТКА-->
-              <form class="popup">
-              <img 
-              class="popup__close-button"
-              src="images/popup-close-button.svg"
-              alt="Закрыть форму редактирования профиля"
-              >
-              <div class="popup__content">
+              <form name="profile-edit" class="popup">
+              <button type="button" class="popup__close-button"></button>
                 <h2 class="popup__title">Редактировать профиль</h2>
-
-                <input type="text" value="Жак-Ив Кусто" class="popup__form-container popup__form-name" id="form-name">
-                <input type="text" value="Исследователь океана " class="popup__form-container popup__form-info" id="form-info">
+                <input type="text" class="popup__form popup__form_name" id="form-name">
+                <input type="text" class="popup__form popup__form_info" id="form-info">
                 <button type="submit" class="popup__save-button">Сохранить</button>
-              </div>
               </form>
             </div>
             <!--POPUP END-->
             <h1 class="user__name">Жак-Ив Кусто</h1>
             <p class="user__info">Исследователь океана</p>
           </div>
-          <div class="add-button"></div>
+          <button type="button" class="profile__add-button"></button>
         </section>
         <!--CARDS (ОБЕРТКА) 6 БЛОКОВ-->
         <section class="cards">
@@ -61,11 +52,7 @@
               alt="Байкал, покрытая льдом пещера"
             >
             <h2 class="card__title">Байкал</h2>
-            <img 
-              class="card__like-button"
-              src="images/card-like-button.svg"
-              alt="Кнопка нравится"
-              >
+            <button type="button" class="card__like-button"></button>
           </div>
           <!--2-->
           <div class="card">
@@ -75,11 +62,7 @@
               alt="Камчатка, море"
             >
             <h2 class="card__title">Камчатка</h2>
-            <img 
-              class="card__like-button"
-              src="images/card-like-button.svg"
-              alt="Кнопка нравится"
-              >
+            <button type="button" class="card__like-button"></button>
           </div>
           <!--3-->
           <div class="card">
@@ -89,11 +72,7 @@
               alt="Ольхон, теплое время года"
             >
             <h2 class="card__title">Ольхон</h2>
-            <img 
-              class="card__like-button"
-              src="images/card-like-button.svg"
-              alt="Кнопка нравится"
-              >
+            <button type="button" class="card__like-button"></button>
           </div>
           <!--4-->
           <div class="card">
@@ -103,11 +82,7 @@
               alt="Коми"
             >
             <h2 class="card__title">Коми</h2>
-            <img 
-              class="card__like-button"
-              src="images/card-like-button.svg"
-              alt="Кнопка нравится"
-              >
+            <button type="button" class="card__like-button"></button>
           </div>
           <!--5-->
           <div class="card">
@@ -117,11 +92,7 @@
               alt="Камчатка, туман"
             >
             <h2 class="card__title">Камчатка</h2>
-            <img 
-              class="card__like-button"
-              src="images/card-like-button.svg"
-              alt="Кнопка нравится"
-              >
+            <button type="button" class="card__like-button"></button>
           </div>
           <!--6-->
           <div class="card">
@@ -131,11 +102,7 @@
               alt="Ольхон во льдах"
             >
             <h2 class="card__title">Ольхон</h2>
-            <img 
-              class="card__like-button"
-              src="images/card-like-button.svg"
-              alt="Кнопка нравится"
-              >
+            <button type="button" class="card__like-button"></button>
           </div>
         </section>
       </main>
@@ -144,7 +111,6 @@
         <span>© 2022 Mesto Russia</span>
       </footer>
       </div>
-    </div>
-  <script src="pages/index.js"></script>
+    <script src="scripts/index.js"></script>
   </body>
 </html>

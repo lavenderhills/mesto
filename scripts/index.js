@@ -8,11 +8,13 @@ editBtn.addEventListener('click', function() {
 
 closeBtn.addEventListener('click', function() {
   popup.classList.add('popup-wrapper_closed');
+  nameInput.value = nameField.textContent;
+  jobInput.value = jobField.textContent;
 });
 
 let formElement = document.querySelector('.popup');
-let nameInput = document.querySelector('.popup__form_name');
-let jobInput = document.querySelector('.popup__form_info');
+let nameInput = document.querySelector('.popup__form_type_name');
+let jobInput = document.querySelector('.popup__form_type_info');
 let nameField = document.querySelector('.user__name');
 let jobField = document.querySelector('.user__info');
 
@@ -27,4 +29,3 @@ popup.classList.add('popup-wrapper_closed');
 };
 
 formElement.addEventListener('submit', formSubmitHandler);
-

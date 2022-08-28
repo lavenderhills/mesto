@@ -26,5 +26,3 @@
 **GitHub Pages**
 
 * [Ссылка на GitHub Pages](https://lavenderhills.github.io/mesto/)
-
-
